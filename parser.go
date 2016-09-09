@@ -25,7 +25,7 @@ type WhoisInfo struct {
 
 //注册商
 type RegistrarInfo struct {
-	WhoisServer string `whois:"WHOIS Server"`
+	WhoisServer string `whois:"WHOIS Server,Whois Server"`
 	URL         string `whois:"Registrar URL,Referral URL"`
 	Name        string `whois:"Registrar,registrar"`
 	ID          string `whois:"Registrar IANA ID"`
